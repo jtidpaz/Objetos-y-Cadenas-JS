@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Final de JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #eaeaea; /* Color de fondo más suave */
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1976d2; /* Color de encabezado */
+      color: white;
+      padding: 20px;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      color: white;
+      background-color: #1976d2; /* Color de enlaces */
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    a:hover {
+      background-color: #115293; /* Color al pasar el ratón */
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #555;
+      padding: 10px 0; /* Espaciado en el pie de página */
+      background-color: #f1f1f1; /* Fondo claro para el pie de página */
+      position: relative; /* Posicionamiento relativo */
+      bottom: 0;
+      width: 100%; /* Ancho completo */
+    }
+    .resultados {
+      margin-top: 30px;
+      text-align: left;
+      max-width: 800px;
+      margin: 20px auto;
+      background: none; /* Sin fondo */
+      padding: 0; /* Sin padding */
+      border: none; /* Sin borde */
+      box-shadow: none; /* Sin sombra */
+    }
+    .resultados h3 {
+      color: #1976d2; /* Color de encabezado de resultados */
+      border-bottom: 2px solid #1976d2;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: white;
+      background-color: #1976d2; /* Color de botón */
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #115293; /* Color al pasar el ratón */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Proyecto Final</h1>
+    <p>Practicando JavaScript de bucles (for, for in, for of, while y do while) 
+        y métodos de cadenas String.concat(), String.trim(), String.trimStart(), String.trimEnd() y String.padStart()
+    </p>
+  </header>
+
+  <main id="ejercicios">
+    <h2>Ejercicios</h2>
+    <button onclick="ejecutarEjercicios()">Ejecutar Ejercicios</button>
+    <div class="resultados" id="resultados"></div>
+  </main>
+
+  <footer>
+    <p>Presentado por: Juan Carlos Bolaños - Tatiana Perez - Estefany Paola Ruano Muñoz</p>
+  </footer>
+
+  <script src="resources/js/app.js"></script>
+</body>
+</html>
